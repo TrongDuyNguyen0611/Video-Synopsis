@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/pcgvs/__init__.py
+src/pcgvs.egg-info/PKG-INFO
+src/pcgvs.egg-info/SOURCES.txt
+src/pcgvs.egg-info/dependency_links.txt
+src/pcgvs.egg-info/not-zip-safe
+src/pcgvs.egg-info/requires.txt
+src/pcgvs.egg-info/top_level.txt

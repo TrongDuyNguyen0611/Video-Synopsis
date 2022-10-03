@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pcgvs
+Version: 0.0.0
+Summary: Potential collision graph based video synopsis.
+Author: Luigi Seminara, Lemuel Puglisi
+License: MIT
+Platform: unix
+Platform: linux
+Platform: osx
+Platform: cygwin
+Platform: win32
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+License-File: LICENSE
