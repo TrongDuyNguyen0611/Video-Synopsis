@@ -15,7 +15,6 @@
 ------
 
 
-
 ## ⚡ Quickstart
 
 Create another conda environment: 
@@ -39,9 +38,6 @@ from pcgvs.extraction import TubeExtraction
 ```
 
 
-
-
-
 ## 🛠️ CLI
 
 ```bash
@@ -60,15 +56,11 @@ Options:
 
 
 
-
-
 ## 📊 Data flow 
 
 <p align="center">
   <img src="./media/Data-flow.png" alt="data-flow" width=500/>
 </p>
-
-
 
 
 
@@ -127,15 +119,7 @@ Options:
 }
 ```
 
-
-
-
-
 ## 🖊️ Authors 
 
 * [Luigi Seminara](https://github.com/Gigi-G)
 * [Lemuel Puglisi](https://github.com/LemuelPuglisi) 
-# Video-Synopsis
-# Video-Synopsis
-# Video_synopsis_Graph_coloring
-# Video_synopsis_Graph_coloring
