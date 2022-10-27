@@ -4,16 +4,13 @@
 
 ------
 
-- **[Quickstart](#-quickstart)**
-- **[CLI](#-CLI)**
-- **[Data Flow](#-data-flow)**
-- **[Bibliography](#-bibliography)**
-- **[Authors](#-authors)**
+- **[Install](#-Install)**
+
 
 ------
 
 
-## ⚡ Quickstart
+## ⚡ Install
 
 Create another conda environment: 
 
