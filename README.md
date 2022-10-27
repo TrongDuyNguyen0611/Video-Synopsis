@@ -50,11 +50,11 @@ pip install -r requirements_DS.txt
 ```
 # Quickstart
 
-Step1: Object Tracking to generate the file txt information of object 
+## Step 1: Object Tracking to generate the file txt information of object 
 ```bash
 !python track.py --source /Test.mp4 --yolo-weights weights/yolov5m.pt --strong-sort-weights osnet_x0_25_msmt17.pt --save-txt 
 ```
-Step2: Custom runing sysnopsis video:
+## Step 2: Custom runing sysnopsis video:
 
 In PCGVS_Main/run_all.py lease add the path for custom dataset:
 
