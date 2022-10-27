@@ -1,6 +1,14 @@
 <h1 align="center">pcgvs (Potential Collision Graph Video Synopsis)</h1>
 
-![simulation](media/synopsis.gif)
+#Introduction
+
+Video synopsis is an intelligent condensation approach to solve fast video browsing and retrieval for surveillance cameras. However, collision caused by unsatisfied tube rearrangement in traditional methods brings uncomfortable visual effect to users and how to mitigate the collision still remains an attracting topic. Unlike conventional methods that deal with tube rearrangement by minimizing a global energy function, we propose a novel approach by formulating it as a graph coloring problem. 
+
+
+<img width="702" alt="Screen Shot 2022-09-23 at 00 14 12" src="https://user-images.githubusercontent.com/81319640/198190180-59b99859-63d8-495c-9273-919854f5c30d.png">
+
+
+In this approach, all the tubes are firstly mapped into the spatial domain for analyzing their potential collision relationship. The input tube set is then represented by a graph structure, where each node stands for a tube and the edge between two nodes represents the potential collision relationship. To mitigate the collision artifacts,that method finds the mapping of tubes from original video to synopsis video by L(q)-coloring the graph, which separates tubes from their collision points. The parameter q is left tunable to make a compromise between collision artifacts and synopsis length, which can better meet users demand of freely adjusting the compactness of synopsis video. The shifted objects are finally composited with the background image to obtain the high-quality video synopsis.
 
 ------
 
@@ -8,6 +16,7 @@
 - **[Quickstart](#-Quickstart)**
 - **[Eval](#-Eval)**
 - **[CLI](#-CLI)**
+- **[Bibliography](#Bibliography)**
 
 ------
 
@@ -91,6 +100,7 @@ Evalue 3 metric:
 ```bash
 python eval.py
 ```
+
 # CLI
 
 ```bash
@@ -105,4 +115,20 @@ Options:
   -c FLOAT                Confidence threshold for Yolov5.  [default: 0.15]
   --interp / --no-interp  Interpolates the missing bounding boxes
   --help                  Show this message and exit.
+```
+# Bibliography
+```
+@article{HeGSQH17,  
+  title 	= {Graph coloring based surveillance video synopsis},  
+  author 	= {Yi He and Changxin Gao and Nong Sang and Zhiguo Qu and Jun Han},  
+  year 		= {2017},  
+  doi 		= {10.1016/j.neucom.2016.11.011},  
+  url 		= {http://dx.doi.org/10.1016/j.neucom.2016.11.011},  
+  researchr 	= {https://researchr.org/publication/HeGSQH17},  
+  cites 	= {0},  
+  citedby 	= {0},  
+  journal 	= {Neurocomputing},  
+  volume 	= {225},  
+  pages 	= {64-79}, 
+}
 ```
