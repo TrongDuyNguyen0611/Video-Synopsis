@@ -1,11 +1,13 @@
 <h1 align="center">pcgvs (Potential Collision Graph Video Synopsis)</h1>
 
-#Introduction
+# Introduction
 
 Video synopsis is an intelligent condensation approach to solve fast video browsing and retrieval for surveillance cameras. However, collision caused by unsatisfied tube rearrangement in traditional methods brings uncomfortable visual effect to users and how to mitigate the collision still remains an attracting topic. Unlike conventional methods that deal with tube rearrangement by minimizing a global energy function, we propose a novel approach by formulating it as a graph coloring problem. 
 
 
-<img width="702" alt="Screen Shot 2022-09-23 at 00 14 12" src="https://user-images.githubusercontent.com/81319640/198190180-59b99859-63d8-495c-9273-919854f5c30d.png">
+
+<img width="1000" alt="Screen Shot 2022-09-23 at 00 14 12" src="https://user-images.githubusercontent.com/81319640/198190180-59b99859-63d8-495c-9273-919854f5c30d.png">
+
 
 
 In this approach, all the tubes are firstly mapped into the spatial domain for analyzing their potential collision relationship. The input tube set is then represented by a graph structure, where each node stands for a tube and the edge between two nodes represents the potential collision relationship. To mitigate the collision artifacts,that method finds the mapping of tubes from original video to synopsis video by L(q)-coloring the graph, which separates tubes from their collision points. The parameter q is left tunable to make a compromise between collision artifacts and synopsis length, which can better meet users demand of freely adjusting the compactness of synopsis video. The shifted objects are finally composited with the background image to obtain the high-quality video synopsis.
@@ -100,6 +102,10 @@ Evalue 3 metric:
 ```bash
 python eval.py
 ```
+To visualization runing /notebook_step/ 5. Video Synopsis on synthetic data.ipynb
+
+<img width="540" alt="Screen Shot 2022-10-27 at 11 22 02" src="https://user-images.githubusercontent.com/81319640/198190950-c5d23c4f-2c10-4e73-9c8b-7fb46fa9ab46.png">
+
 
 # CLI
 
