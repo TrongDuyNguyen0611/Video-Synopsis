@@ -1,4 +1,4 @@
-<h1 align="center">pcgvs (Potential Collision Graph Video Synopsis)</h1>
+<h1 align="center"> PCGVS (Potential Collision Graph Video Synopsis)</h1>
 
 # Introduction
 
