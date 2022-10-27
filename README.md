@@ -79,14 +79,15 @@ Runing step by step in /PCGVS_MAIN/notebooks/notebook_step
 
 Evaluated through the following metric: FR,CR,OR
 
-Input original video
+Input original video:
 ```bash
 vpath ="/pcgvs-main/notebooks/Metadata/Video_input/video.mp4"
 ```
-Input synopsis video
+Input synopsis video:
 ```bash
 spath ="./synopsis/synopsis.avi"
 ```
+Evalue 3 metric:
 ```bash
 python eval.py
 ```
