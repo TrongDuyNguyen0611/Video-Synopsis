@@ -74,7 +74,7 @@ Output video synopsis path
 ```bash
 output_vid="/pcgvs-main/notebooks/Metadata/synopsis"
 ```
-Input background(if image background does not exist yet runing in notebook 2. Extract Patches and Background)
+Input background (if image background does not exist yet runing in notebook 2. Extract Patches and Background)
 ```bash
 input_background="/pcgvs-main/notebooks/Metadata/synopsis/background.png"
 ```
