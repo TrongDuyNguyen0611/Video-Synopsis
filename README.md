@@ -23,7 +23,17 @@ Install the package locally:
 ```bash
 pip install -e .
 ```
-conda install -c conda-forge detectron2
-
+```bash
+pip install -r requirements.py
 ```
+Install detectron2 for segmentation:
+
+```bash
+conda install -c conda-forge detectron2
+```
+Run Notebook step by step in /PCGVS_MAIN/notebooks/notebook_step
+
+
+
+
 
