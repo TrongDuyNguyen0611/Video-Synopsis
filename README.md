@@ -5,8 +5,9 @@
 ------
 
 - **[Install](#-Install)**
-- **[Runing](#-Runing)**
+- **[Quickstart](#-Quickstart)**
 - **[Eval](#-Eval)**
+- **[CLI](#-CLI)**
 
 ------
 
@@ -36,7 +37,7 @@ Install if you want to run yolov5 deepsort for Object Tracking:
 ```bash
 pip install -r requirements_DS.txt
 ```
-# Runing
+# Quickstart
 
 Step1: Object Tracking to generate the file txt information of object 
 ```bash
@@ -48,7 +49,7 @@ In PCGVS_Main/run_all.py lease add the path for custom dataset:
 
 Input video
 ```bash
-# input_vid="/pcgvs-main/notebooks/Metadata/Video_input/video.mp4"
+input_vid="/pcgvs-main/notebooks/Metadata/Video_input/video.mp4"
 ```
 Input image patches crop from detection
 ```bash
@@ -74,7 +75,6 @@ python run_all.py
 ```
 
 Runing step by step in /PCGVS_MAIN/notebooks/notebook_step
-
 # Eval
 
 Evaluated through the following metric: FR,CR,OR
@@ -89,4 +89,19 @@ spath ="./synopsis/synopsis.avi"
 ```
 ```bash
 python eval.py
+```
+# CLI
+
+```bash
+$ python .\cli.py --help
+Usage: cli.py [OPTIONS]
+
+Options:
+  -i TEXT                 Source video path  [required]
+  -o TEXT                 Path of the synopsis folder  [required]
+  -q INTEGER              q parameter of L(q)-coloring problem.  [default: 3]
+  -t INTEGER              Threads used in Strong Sort algorithm.  [default: 1]
+  -c FLOAT                Confidence threshold for Yolov5.  [default: 0.15]
+  --interp / --no-interp  Interpolates the missing bounding boxes
+  --help                  Show this message and exit.
 ```
